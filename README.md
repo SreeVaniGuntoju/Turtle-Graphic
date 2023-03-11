@@ -1,2 +1,2 @@
-# Turtle-Graphic
+# Turtle Graphics
 Python Turtle Graphics
