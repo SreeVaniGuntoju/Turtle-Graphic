@@ -1,0 +1,32 @@
+import turtle
+
+ninja = turtle.Turtle()
+
+ninja.speed(2000)
+
+for i in range(90):
+    ninja.forward(200)
+    ninja.right(60)
+    ninja.forward(40)
+    ninja.left(60)
+    ninja.forward(100)
+    ninja.right(60)
+    ninja.color("red")
+    ninja.penup()
+    ninja.setposition(0, 0)
+    ninja.pendown()
+
+    ninja.right(2)
+    
+    ninja.forward(100)
+    ninja.right(30)
+    ninja.forward(20)
+    ninja.left(30)
+    ninja.forward(50)
+    ninja.right(30)
+    ninja.color("green")
+    ninja.penup()
+    ninja.setposition(0, 0)
+    ninja.pendown()
+
+turtle.done()

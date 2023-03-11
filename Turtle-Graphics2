@@ -1,0 +1,14 @@
+# import turtleturtle
+import turtle
+import random
+
+wn = turtle.Screen()
+wn.bgcolor('black')
+turtle.speed(0)
+colors = ['blue', 'violet']
+for i in range(200):
+    turtle.forward(5 * i)
+    turtle.right(145)
+    turtle.color(random.choice(colors))
+
+turtle.exitonclick()
